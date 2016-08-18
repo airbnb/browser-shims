@@ -1,0 +1,38 @@
+{
+  "name": "airbnb-browser-shims",
+  "version": "0.0.0",
+  "description": "Browser and JS shims used by Airbnb.",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "npm run tests-only",
+    "tests-only": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/airbnb/browser-shims.git"
+  },
+  "keywords": [
+    "shims",
+    "polyfills"
+  ],
+  "author": "Jordan Harband <ljharb@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "airbnb-js-shims": "^1.0.1",
+    "ima-babel6-polyfill": "^0.12.0",
+    "webrtc-adapter": "^2.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^3.3.1",
+    "eslint-config-airbnb": "^10.0.1",
+    "eslint-plugin-import": "^1.13.0",
+    "eslint-plugin-jsx-a11y": "^2.1.0",
+    "eslint-plugin-react": "^6.1.2",
+    "tape": "^4.6.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
