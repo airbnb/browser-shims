@@ -10,5 +10,7 @@ require('./document-contains');
 
 require('webrtc-adapter');
 
-// Element.classList polyfill
-require('classlist-polyfill');
+if (typeof window !== 'undefined') {
+  // Element.classList polyfill
+  require('classlist-polyfill'); // eslint-disable-line global-require
+}
