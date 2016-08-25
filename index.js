@@ -9,3 +9,6 @@ require('ima-babel6-polyfill');
 require('./document-contains');
 
 require('webrtc-adapter');
+
+// Element.classList polyfill
+require('classlist-polyfill');

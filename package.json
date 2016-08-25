@@ -22,6 +22,7 @@
   "license": "MIT",
   "dependencies": {
     "airbnb-js-shims": "^1.0.1",
+    "classlist-polyfill": "^1.0.3",
     "ima-babel6-polyfill": "^0.12.0",
     "webrtc-adapter": "^2.0.2"
   },
