@@ -14,3 +14,5 @@ if (typeof window !== 'undefined') {
   // Element.classList polyfill
   require('classlist-polyfill'); // eslint-disable-line global-require
 }
+
+require('raf/polyfill');
