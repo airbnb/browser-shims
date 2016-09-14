@@ -13,6 +13,10 @@ require('webrtc-adapter');
 if (typeof window !== 'undefined') {
   // Element.classList polyfill
   require('classlist-polyfill'); // eslint-disable-line global-require
+
+  // Polyfill window.matchMedia (primarily for IE9)
+  require('matchmedia-polyfill');
+  require('matchmedia-polyfill/matchMedia.addListener');
 }
 
 require('raf/polyfill');
