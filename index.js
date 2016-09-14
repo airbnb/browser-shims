@@ -1,5 +1,7 @@
 'use strict';
 
+/* eslint global-require: 0 */
+
 require('airbnb-js-shims');
 
 // Fixes super-constructor calls in IE9/10
@@ -12,7 +14,7 @@ require('webrtc-adapter');
 
 if (typeof window !== 'undefined') {
   // Element.classList polyfill
-  require('classlist-polyfill'); // eslint-disable-line global-require
+  require('classlist-polyfill');
 
   // Polyfill window.matchMedia (primarily for IE9)
   require('matchmedia-polyfill');
