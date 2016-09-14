@@ -26,7 +26,7 @@
     "ima-babel6-polyfill": "^0.12.0",
     "matchmedia-polyfill": "^0.3.0",
     "raf": "^3.3.0",
-    "webrtc-adapter": "^2.0.2"
+    "webrtc-adapter": "^2.0.3"
   },
   "devDependencies": {
     "eslint": "^3.4.0",
