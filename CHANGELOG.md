@@ -1,3 +1,11 @@
+1.3.1 / 2016-10-23
+=================
+  * Fix v1.3.0 publish
+
+1.3.0 / 2016-09-13
+=================
+  * [New] Add matchMedia polyfill (#3)
+
 1.2.0 / 2016-09-02
 =================
   * [New] add `requestAnimationFrame` polyfill. Works in browsers + node
