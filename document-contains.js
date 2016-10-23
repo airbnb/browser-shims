@@ -1,4 +1,5 @@
 'use strict';
+
 /* globals document, Element */
 
 if (typeof document !== 'undefined' && !document.contains) {
