@@ -1,6 +1,11 @@
 Unreleased
 =================
-  * [New] add `requestIdleCallback`
+
+1.4.0 / 2016-11-18
+=================
+  * [New] add `requestIdleCallback` (#6)
+  * [Deps] update `webrtc-adapter`
+  * [Dev Deps] update `eslint`, `eslint-config-airbnb-base`, `eslint-plugin-import`, `safe-publish-latest`, `tape`
 
 1.3.1 / 2016-10-23
 =================
