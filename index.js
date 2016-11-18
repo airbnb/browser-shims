@@ -22,3 +22,7 @@ if (typeof window !== 'undefined') {
 }
 
 require('raf/polyfill');
+
+global.requestIdleCallback = require('ric-shim');
+
+global.cancelIdleCallback = global.requestIdleCallback.cancelIdleCallback;

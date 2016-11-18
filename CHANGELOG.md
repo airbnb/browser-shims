@@ -1,3 +1,7 @@
+Unreleased
+=================
+  * [New] add `requestIdleCallback`
+
 1.3.1 / 2016-10-23
 =================
   * Fix v1.3.0 publish
