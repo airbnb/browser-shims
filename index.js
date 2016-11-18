@@ -10,6 +10,9 @@ require('ima-babel6-polyfill');
 // document.contains polyfill
 require('./document-contains');
 
+// console.* polyfill for old browsers
+require('console-polyfill');
+
 require('webrtc-adapter');
 
 if (typeof window !== 'undefined') {
