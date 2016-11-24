@@ -35,7 +35,7 @@
     "eslint-config-airbnb-base": "^10.0.1",
     "eslint-plugin-import": "^2.2.0",
     "safe-publish-latest": "^1.1.1",
-    "tape": "^4.6.2"
+    "tape": "^4.6.3"
   },
   "publishConfig": {
     "access": "public"
