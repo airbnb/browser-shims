@@ -13,6 +13,7 @@ Included shims:
  - [raf](https://www.npmjs.com/package/raf) - requestAnimationFrame polyfill for browsers and node
  - [requestIdleCallback](https://www.npmjs.com/package/ric-shim)
  - [matchmedia-polyfill](https://github.com/paulirish/matchMedia.js/) - window.matchMedia polyfill (only in browsers)
+ - [whatwg-fetch](https://github.com/github/fetch) - fetch polyfill (only in browsers)
 
 [1]: https://npmjs.org/package/airbnb-browser-shims
 [2]: http://versionbadg.es/airbnb/browser-shims.svg

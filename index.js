@@ -15,6 +15,8 @@ require('console-polyfill');
 
 require('webrtc-adapter');
 
+require('whatwg-fetch');
+
 if (typeof window !== 'undefined') {
   // Element.classList polyfill
   require('classlist-polyfill');

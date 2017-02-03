@@ -28,7 +28,8 @@
     "matchmedia-polyfill": "^0.3.0",
     "raf": "^3.3.0",
     "ric-shim": "^1.0.0",
-    "webrtc-adapter": "^2.0.8"
+    "webrtc-adapter": "^2.0.8",
+    "whatwg-fetch": "^2.0.2"
   },
   "devDependencies": {
     "eslint": "^3.10.2",
