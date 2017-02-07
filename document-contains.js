@@ -2,8 +2,10 @@
 
 /* globals document, Element */
 
+var shim;
+
 if (typeof document !== 'undefined' && !document.contains) {
-  document.contains = Element.prototype.contains = function contains(node) {
+  shim = function contains(node) {
     /* eslint prefer-rest-params: 0, no-param-reassign: 0 */
     if (arguments.length < 1) {
       throw new TypeError('1 argument is required');
@@ -20,5 +22,7 @@ if (typeof document !== 'undefined' && !document.contains) {
 
     return false;
   };
+  document.contains = shim;
+  Element.prototype.contains = shim;
 }
 
