@@ -1,6 +1,13 @@
 Unreleased
 =================
 
+1.6.0 / 2017-02-06
+=================
+  * [New] add whatwg-fetch (#10)
+  * [Deps] update `webrtc-adapter`
+  * [Dev Deps] update `eslint`, `eslint-config-airbnb-base`
+  * [Tests] up to `node` `v7.5`, `v6.9`, `v4.7`; improve test matrix
+
 1.5.0 / 2016-11-23
 =================
   * [New] add `console.*` polyfills (#7)
