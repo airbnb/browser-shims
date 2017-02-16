@@ -1,6 +1,10 @@
 Unreleased
 =================
 
+1.7.0 / 2017-02-16
+=================
+  * [New] split out browser-only entry point
+
 1.6.0 / 2017-02-06
 =================
   * [New] add whatwg-fetch (#10)
