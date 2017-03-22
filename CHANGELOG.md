@@ -1,6 +1,12 @@
 Unreleased
 =================
 
+1.8.0 / 2017-03-22
+=================
+  * [Deps] update `airbnb-js-shims`
+  * [Dev Deps] update `eslint`, `eslint-config-airbnb-base`
+  * [Deps] downgrade `whatwg-fetch` to v0.11 for full IE9 support
+
 1.7.0 / 2017-02-16
 =================
   * [New] split out browser-only entry point
