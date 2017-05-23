@@ -19,6 +19,9 @@ if (typeof window !== 'undefined') {
   // Element.classList polyfill
   require('classlist-polyfill');
 
+  // Element.closest polyfill
+  require('element-closest');
+
   // Polyfill window.matchMedia (primarily for IE9)
   require('matchmedia-polyfill');
   require('matchmedia-polyfill/matchMedia.addListener');
