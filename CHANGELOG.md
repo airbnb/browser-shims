@@ -1,6 +1,12 @@
 Unreleased
 =================
 
+1.9.0 / 2017-05-23
+=================
+  * [New] polyfill Symbol.iterator on TouchList
+  * [Deps] update `classlist-polyfill`, `raf`
+  * [Dev Deps] update `eslint`, `eslint-config-airbnb-base`
+
 1.8.0 / 2017-03-22
 =================
   * [Deps] update `airbnb-js-shims`
