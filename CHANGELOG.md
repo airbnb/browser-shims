@@ -1,6 +1,10 @@
 Unreleased
 =================
 
+1.10.0 / 2017-05-23
+=================
+  * [New] Add Element.prototype.closest polyfill
+
 1.9.0 / 2017-05-23
 =================
   * [New] polyfill Symbol.iterator on TouchList

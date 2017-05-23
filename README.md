@@ -20,6 +20,7 @@ import 'airbnb-browser-shims';
  - [matchmedia-polyfill](https://github.com/paulirish/matchMedia.js/) - window.matchMedia polyfill (only in browsers)
  - [whatwg-fetch](https://github.com/github/fetch) - fetch polyfill (only in browsers, supports IE9+)
  - `TouchList[Symbol.iterator]` - when `Symbol` and `TouchList` are both present
+ - [element-closest](https://npmjs.com/element-closest) - Element.prototype.closest polyfill (only in browsers)
 
 ## Only browser shims
 
