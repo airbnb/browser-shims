@@ -29,3 +29,10 @@ require('raf/polyfill');
 global.requestIdleCallback = require('ric-shim');
 
 global.cancelIdleCallback = global.requestIdleCallback.cancelIdleCallback;
+
+var hasSymbols = typeof Symbol === 'function' && Symbol.iterator;
+
+/* globals TouchList */
+if (hasSymbols && typeof TouchList === 'object' && typeof TouchList.prototype[Symbol.iterator] !== 'function') {
+  TouchList.prototype[Symbol.iterator] = Array.prototype[Symbol.iterator];
+}

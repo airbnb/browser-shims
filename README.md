@@ -19,6 +19,7 @@ import 'airbnb-browser-shims';
  - [requestIdleCallback](https://www.npmjs.com/package/ric-shim)
  - [matchmedia-polyfill](https://github.com/paulirish/matchMedia.js/) - window.matchMedia polyfill (only in browsers)
  - [whatwg-fetch](https://github.com/github/fetch) - fetch polyfill (only in browsers, supports IE9+)
+ - `TouchList[Symbol.iterator]` - when `Symbol` and `TouchList` are both present
 
 ## Only browser shims
 
