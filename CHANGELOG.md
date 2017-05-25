@@ -1,6 +1,10 @@
 Unreleased
 =================
 
+1.11.0 / 2017-05-25
+=================
+  * [New] Add `smoothscroll-polyfill`
+
 1.10.0 / 2017-05-23
 =================
   * [New] Add Element.prototype.closest polyfill

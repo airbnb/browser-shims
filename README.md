@@ -21,6 +21,7 @@ import 'airbnb-browser-shims';
  - [whatwg-fetch](https://github.com/github/fetch) - fetch polyfill (only in browsers, supports IE9+)
  - `TouchList[Symbol.iterator]` - when `Symbol` and `TouchList` are both present
  - [element-closest](https://npmjs.com/element-closest) - Element.prototype.closest polyfill (only in browsers)
+ - [smoothscroll-polyfill](https://www.npmjs.com/package/smoothscroll-polyfill) - Scroll behavior specification polyfill (only in browsers)
 
 ## Only browser shims
 
