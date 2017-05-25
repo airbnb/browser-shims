@@ -22,6 +22,9 @@ if (typeof window !== 'undefined') {
   // Element.closest polyfill
   require('element-closest');
 
+  // Polyfill for smooth scrolling behavior
+  require('smoothscroll-polyfill').polyfill();
+
   // Polyfill window.matchMedia (primarily for IE9)
   require('matchmedia-polyfill');
   require('matchmedia-polyfill/matchMedia.addListener');
