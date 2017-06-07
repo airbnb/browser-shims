@@ -1,6 +1,11 @@
 Unreleased
 =================
 
+1.11.1 / 2017-06-07
+=================
+  * [Fix] `TouchList` is a constructor
+  * [Dev Deps] update `eslint-plugin-import`
+
 1.11.0 / 2017-05-25
 =================
   * [New] Add `smoothscroll-polyfill`
