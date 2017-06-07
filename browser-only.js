@@ -39,6 +39,6 @@ global.cancelIdleCallback = global.requestIdleCallback.cancelIdleCallback;
 var hasSymbols = typeof Symbol === 'function' && Symbol.iterator;
 
 /* globals TouchList */
-if (hasSymbols && typeof TouchList === 'object' && typeof TouchList.prototype[Symbol.iterator] !== 'function') {
+if (hasSymbols && typeof TouchList === 'function' && typeof TouchList.prototype[Symbol.iterator] !== 'function') {
   TouchList.prototype[Symbol.iterator] = Array.prototype[Symbol.iterator];
 }
