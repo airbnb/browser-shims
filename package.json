@@ -25,6 +25,7 @@
     "classlist-polyfill": "^1.2.0",
     "console-polyfill": "^0.2.3",
     "element-closest": "^2.0.2",
+    "function.prototype.name": "^1.0.1",
     "ima-babel6-polyfill": "^0.12.0",
     "matchmedia-polyfill": "^0.3.0",
     "raf": "^3.3.2",
