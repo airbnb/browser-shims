@@ -29,6 +29,8 @@ if (typeof window !== 'undefined') {
   require('matchmedia-polyfill');
   require('matchmedia-polyfill/matchMedia.addListener');
 }
+// Polyfill CustomEvent
+global.CustomEvent = require('custom-event');
 
 require('raf/polyfill');
 
