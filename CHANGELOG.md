@@ -1,6 +1,14 @@
 Unreleased
 =================
 
+1.12.0 / 2017-09-14
+=================
+  * [New] Bump the webrtc-adapter dependency to latest version
+  * [Deps] update `airbnb-js-shims`, `smoothscroll-polyfill`, `whatwg-fetch`
+  * [Dev Deps] update `eslint`, `eslint-config-airbnb-base`, `eslint-plugin-import`, `tape`
+  * [Tests] up to `node` `v8.5`, `v6.11`
+  * [Tests] use `nvm install-latest-npm` to ensure new npm doesn’t break on older node
+
 1.11.1 / 2017-06-07
 =================
   * [Fix] `TouchList` is a constructor
