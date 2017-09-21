@@ -1,5 +1,6 @@
 Unreleased
 =================
+  * [Breaking] Remove `webrtc-adapter`
 
 1.12.0 / 2017-09-14
 =================

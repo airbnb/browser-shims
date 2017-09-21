@@ -13,7 +13,6 @@ import 'airbnb-browser-shims';
  - JS language shims from [airbnb-js-shims](https://github.com/airbnb/js-shims)
  - [ima-babel6-polyfill](https://www.npmjs.com/package/ima-babel6-polyfill) - fixes Babel 6 bugs with `super` calls in IE 9 and 10
  - [document.contains](https://developer.mozilla.org/en/docs/Web/API/Node/contains)
- - [webrtc-adapter](https://www.npmjs.com/package/webrtc-adapter) - A shim to insulate apps from WebRTC spec changes and browser prefix differences
  - [classlist-polyfill](https://www.npmjs.com/package/classlist-polyfill) - Element.prototype.classList polyfill (only in browsers)
  - [raf](https://www.npmjs.com/package/raf) - requestAnimationFrame polyfill for browsers and node
  - [requestIdleCallback](https://www.npmjs.com/package/ric-shim)

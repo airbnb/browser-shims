@@ -11,8 +11,6 @@ require('./document-contains');
 // console.* polyfill for old browsers
 require('console-polyfill');
 
-require('webrtc-adapter');
-
 require('whatwg-fetch');
 
 if (typeof window !== 'undefined') {

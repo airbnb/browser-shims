@@ -30,7 +30,6 @@
     "raf": "^3.3.2",
     "ric-shim": "^1.0.0",
     "smoothscroll-polyfill": "^0.3.6",
-    "webrtc-adapter": "^2.1.0 || ^3 || ^4 || ^5",
     "whatwg-fetch": "^0.11.1"
   },
   "devDependencies": {
