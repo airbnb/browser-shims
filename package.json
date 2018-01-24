@@ -30,7 +30,8 @@
     "raf": "^3.4.0",
     "ric-shim": "^1.0.0",
     "smoothscroll-polyfill": "^0.3.6",
-    "whatwg-fetch": "^0.11.1"
+    "whatwg-fetch": "^0.11.1",
+    "window-location-origin": "^0.1.0"
   },
   "devDependencies": {
     "eslint": "^4.16.0",

@@ -21,6 +21,7 @@ import 'airbnb-browser-shims';
  - `TouchList[Symbol.iterator]` - when `Symbol` and `TouchList` are both present
  - [element-closest](https://npmjs.com/element-closest) - Element.prototype.closest polyfill (only in browsers)
  - [smoothscroll-polyfill](https://www.npmjs.com/package/smoothscroll-polyfill) - Scroll behavior specification polyfill (only in browsers)
+ - [window-location-origin](https://www.npmjs.com/package/window-location-origin) - window.location.origin (for IE < 11)
 
 ## Only browser shims
 

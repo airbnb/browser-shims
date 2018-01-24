@@ -26,6 +26,9 @@ if (typeof window !== 'undefined') {
   // Polyfill window.matchMedia (primarily for IE9)
   require('matchmedia-polyfill');
   require('matchmedia-polyfill/matchMedia.addListener');
+
+  // Polyfill window.location.origin (for IE < 11)
+  require('window-location-origin');
 }
 
 require('raf/polyfill');
