@@ -1,6 +1,13 @@
 Unreleased
 =================
 
+2.1.0 / 2018-01-24
+=================
+  * [New] add window.location.origin polyfill
+  * [Deps] update `airbnb-js-shims`, `console-polyfill`, `raf`
+  * [Dev Deps] update `eslint`, `eslint-config-airbnb-base`, `eslint-plugin-import`
+  * [Tests] up to `node` `v9.4`, `v8.5`, `v6.12`; pin included builds to LTS
+
 2.0.0 / 2017-09-22
 =================
   * [Breaking] Remove `webrtc-adapter`
