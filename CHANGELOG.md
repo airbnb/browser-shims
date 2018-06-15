@@ -1,6 +1,11 @@
 Unreleased
 =================
 
+2.1.1 / 2018-06-14
+=================
+  * [Deps] update `airbnb-js-shims`, `matchmedia-polyfill`
+  * [Dev Deps] update `eslint`, `eslint-plugin-import`, `nsp`, `tape`
+
 2.1.0 / 2018-01-24
 =================
   * [New] add window.location.origin polyfill
