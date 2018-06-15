@@ -1,6 +1,10 @@
 Unreleased
 =================
 
+3.0.0 / 2018-06-14
+=================
+  * [Breaking] update `airbnb-js-shims`
+
 2.1.1 / 2018-06-14
 =================
   * [Deps] update `airbnb-js-shims`, `matchmedia-polyfill`
