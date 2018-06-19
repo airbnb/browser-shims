@@ -22,6 +22,7 @@ import 'airbnb-browser-shims';
  - [element-closest](https://npmjs.com/element-closest) - Element.prototype.closest polyfill (only in browsers)
  - [smoothscroll-polyfill](https://www.npmjs.com/package/smoothscroll-polyfill) - Scroll behavior specification polyfill (only in browsers)
  - [window-location-origin](https://www.npmjs.com/package/window-location-origin) - window.location.origin (for IE < 11)
+ - [input-placeholder-polyfill](https://www.npmjs.com/package/input-placeholder-polyfill) - input placeholder polyfill (for IE < 10)
 
 ## Only browser shims
 

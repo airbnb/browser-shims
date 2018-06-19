@@ -29,6 +29,9 @@ if (typeof window !== 'undefined') {
 
   // Polyfill window.location.origin (for IE < 11)
   require('window-location-origin');
+
+  // for <= IE 9, Opera mini
+  require('input-placeholder-polyfill');
 }
 
 require('raf/polyfill');
