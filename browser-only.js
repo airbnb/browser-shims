@@ -32,6 +32,8 @@ if (typeof window !== 'undefined') {
 
   // for <= IE 9, Opera mini
   require('input-placeholder-polyfill');
+
+  require('intersection-observer');
 }
 
 require('raf/polyfill');
@@ -46,3 +48,4 @@ var hasSymbols = typeof Symbol === 'function' && Symbol.iterator;
 if (hasSymbols && typeof TouchList === 'function' && typeof TouchList.prototype[Symbol.iterator] !== 'function') {
   TouchList.prototype[Symbol.iterator] = Array.prototype[Symbol.iterator];
 }
+

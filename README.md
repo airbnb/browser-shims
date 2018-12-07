@@ -23,6 +23,7 @@ import 'airbnb-browser-shims';
  - [smoothscroll-polyfill](https://www.npmjs.com/package/smoothscroll-polyfill) - Scroll behavior specification polyfill (only in browsers)
  - [window-location-origin](https://www.npmjs.com/package/window-location-origin) - window.location.origin (for IE < 11)
  - [input-placeholder-polyfill](https://www.npmjs.com/package/input-placeholder-polyfill) - input placeholder polyfill (for IE < 10)
+ - [intersection-observer](https://github.com/w3c/IntersectionObserver/tree/master/polyfill) - IntersectionObserver (only in browsers)
 
 ## Only browser shims
 
