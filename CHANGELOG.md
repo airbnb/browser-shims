@@ -1,6 +1,11 @@
 Unreleased
 =================
 
+3.1.0 / 2018-12-10
+==================
+  * [New] Add `input-placeholder-polyfill`
+  * [New] Add `intersection-observer`
+
 3.0.0 / 2018-06-14
 =================
   * [Breaking] update `airbnb-js-shims`
