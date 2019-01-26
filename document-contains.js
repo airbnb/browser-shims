@@ -25,4 +25,3 @@ if (typeof document !== 'undefined' && !document.contains) {
   document.contains = shim;
   Element.prototype.contains = shim;
 }
-

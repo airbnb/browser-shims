@@ -48,4 +48,3 @@ var hasSymbols = typeof Symbol === 'function' && Symbol.iterator;
 if (hasSymbols && typeof TouchList === 'function' && typeof TouchList.prototype[Symbol.iterator] !== 'function') {
   TouchList.prototype[Symbol.iterator] = Array.prototype[Symbol.iterator];
 }
-
