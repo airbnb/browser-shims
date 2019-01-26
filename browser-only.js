@@ -34,6 +34,9 @@ if (typeof window !== 'undefined') {
   require('input-placeholder-polyfill');
 
   require('intersection-observer');
+
+  // KeyboardEvent.key shim
+  require('shim-keyboard-event-key');
 }
 
 require('raf/polyfill');

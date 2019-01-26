@@ -18,6 +18,7 @@ import 'airbnb-browser-shims';
  - [requestIdleCallback](https://www.npmjs.com/package/ric-shim)
  - [matchmedia-polyfill](https://github.com/paulirish/matchMedia.js/) - window.matchMedia polyfill (only in browsers)
  - [whatwg-fetch](https://github.com/github/fetch) - fetch polyfill (only in browsers, supports IE9+)
+ - [shim-keyboard-event-key](https://github.com/shvaikalesh/shim-keyboard-event-key) - KeyboardEvent.key shim
  - `TouchList[Symbol.iterator]` - when `Symbol` and `TouchList` are both present
  - [element-closest](https://npmjs.com/element-closest) - Element.prototype.closest polyfill (only in browsers)
  - [smoothscroll-polyfill](https://www.npmjs.com/package/smoothscroll-polyfill) - Scroll behavior specification polyfill (only in browsers)
