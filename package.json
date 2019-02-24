@@ -9,10 +9,7 @@
     "pretest": "npm run lint",
     "test": "npm run tests-only",
     "tests-only": "node test",
-    "posttest": "npm run audit",
-    "preaudit": "npm install --package-lock --package-lock-only",
-    "audit": "npm audit",
-    "postaudit": "rm package-lock.json"
+    "posttest": "npx aud"
   },
   "repository": {
     "type": "git",
