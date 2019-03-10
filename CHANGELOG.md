@@ -1,6 +1,12 @@
 Unreleased
 =================
 
+3.2.1 / 2019-03-10
+==================
+  * [patch] extract `document.contains` shim to separate package
+  * [Deps] update `shim-keyboard-event-key`
+  * [Dev Deps] update `eslint`
+
 3.2.0 / 2019-02-23
 ==================
   * [New] Add KeyboardEvent.key shim (#23)
