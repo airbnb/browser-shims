@@ -25,6 +25,7 @@
     "airbnb-js-shims": "^2.1.1",
     "classlist-polyfill": "^1.2.0",
     "console-polyfill": "^0.3.0",
+    "document.contains": "^1.0.0",
     "element-closest": "^2.0.2",
     "ima-babel6-polyfill": "^0.12.0",
     "input-placeholder-polyfill": "^1.0.0",
