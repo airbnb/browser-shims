@@ -39,6 +39,9 @@ if (typeof window !== 'undefined') {
   require('shim-keyboard-event-key');
 }
 
+// :focus-visible shim
+require('focus-visible');
+
 require('raf/polyfill');
 
 global.requestIdleCallback = require('ric-shim');
