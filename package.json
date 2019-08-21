@@ -1,6 +1,6 @@
 {
   "name": "airbnb-browser-shims",
-  "version": "3.2.1",
+  "version": "3.3.0",
   "description": "Browser and JS shims used by Airbnb.",
   "main": "index.js",
   "scripts": {

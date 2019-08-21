@@ -1,6 +1,10 @@
 Unreleased
 =================
 
+3.3.0 / 2019-08-20
+==================
+  * [New] Add :focus-visible shim
+
 3.2.1 / 2019-03-10
 ==================
   * [patch] extract `document.contains` shim to separate package
