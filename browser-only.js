@@ -37,6 +37,9 @@ if (typeof window !== 'undefined') {
 
   // KeyboardEvent.key shim
   require('shim-keyboard-event-key');
+
+  // Polyfill Pointer Events
+  require('pepjs');
 }
 
 // :focus-visible shim

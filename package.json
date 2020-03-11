@@ -32,6 +32,7 @@
     "input-placeholder-polyfill": "^1.0.0",
     "intersection-observer": "^0.5.1",
     "matchmedia-polyfill": "^0.3.1",
+    "pepjs": "^0.5.2",
     "raf": "^3.4.1",
     "ric-shim": "^1.0.0",
     "shim-keyboard-event-key": "^1.0.3",
